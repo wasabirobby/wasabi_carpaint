@@ -25,4 +25,4 @@ This resource was created as a free ESX usable paint script to color vehicles.
 ## Preview
 - Video: https://streamable.com/zj1nsw
 # Support
-Join our discord <a href='https://discord.gg/XJFNyMy3Bv'>HERE</a> for additional scripts and support!
+<a href='https://discord.gg/79zjvy4JMs'>![Discord Banner 2](https://discordapp.com/api/guilds/1025493337031049358/widget.png?style=banner2)</a>
