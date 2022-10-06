@@ -1,15 +1,8 @@
 -----------------For support, scripts, and more----------------
 --------------- https://discord.gg/wasabiscripts  -------------
 ---------------------------------------------------------------
-ESX = nil
+ESX = exports["es_extended"]:getSharedObject()
 local isPainting = false
-
-CreateThread(function()
-    while ESX == nil do
-        TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
-        Wait(0)
-    end
-end)
 
 CreateThread(function()
     while true do
@@ -70,6 +63,3 @@ AddEventHandler('wasabi_carpaint:startSpray', function(item, color1, color2, spr
         TriggerEvent('wasabi_carpaint:notify', Language['not_in_car'])
     end
 end)
-
-
-

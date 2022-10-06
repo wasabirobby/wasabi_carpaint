@@ -2,6 +2,8 @@ fx_version 'cerulean'
 
 game 'gta5'
 
+lua54 'yes'
+
 description "ESX Usable car paint"
 
 author 'wasabirobby#5110'

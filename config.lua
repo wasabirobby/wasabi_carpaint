@@ -3,6 +3,8 @@
 ---------------------------------------------------------------
 Config = {}
 
+Config.checkForUpdates = true -- Check for Updates?
+
 Config.SprayTime = 10 -- Time in seconds
 
 Config.Paint = {--Follow syntax when adding/removing/editing the configurable car paints.
@@ -67,18 +69,13 @@ Config.Paint = {--Follow syntax when adding/removing/editing the configurable ca
 
 RegisterNetEvent('wasabi_carpaint:notify')
 AddEventHandler('wasabi_carpaint:notify', function(message)
-
--- Place notification system info here, ex: exports['mythic_notify']:SendAlert('inform', message)
-ESX.ShowNotification(message)
-
-
+    -- Place notification system info here, ex: exports['mythic_notify']:SendAlert('inform', message)
+    ESX.ShowNotification(message)
 end)
 
 Language = {
-
     ['someone_driving'] = 'Can not paint while someone is in driver seat!',
     ['no_nearby'] = 'No nearby vehicle that you can paint.',
     ['not_in_car'] = 'You can\'t do this right now.',
     ['cheater_kick'] = 'Nice try.',
-    
 }
