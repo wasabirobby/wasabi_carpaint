@@ -1,6 +1,7 @@
 -----------------For support, scripts, and more----------------
 --------------- https://discord.gg/wasabiscripts  -------------
 ---------------------------------------------------------------
+
 loadDict = function(dict)
     while not HasAnimDictLoaded(dict) do Wait(0) RequestAnimDict(dict) end
     return dict
